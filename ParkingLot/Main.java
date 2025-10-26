@@ -11,7 +11,7 @@ public class Main {
         // 👇 Injecting billing strategy here
         ExitGate exit = new ExitGate(new SimpleBilling());
 
-        Vehicle car = new Vehicle("KA01AB1234", VehicleType.CAR);
+        Vehicle car = new Vehicle("KA01AB1235", VehicleType.CAR);
         Vehicle bike = new Vehicle("KA09XY5678", VehicleType.BIKE);
 
         Ticket carTicket = entry.generateTicket(car);
